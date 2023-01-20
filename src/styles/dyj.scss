@@ -1,0 +1,21 @@
+.el-card {
+  margin-bottom: 10px;
+}
+
+#app .sidebar-container {
+  -webkit-box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%), 0 0 3px 0 rgb(0 0 0 / 4%);
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%), 0 0 3px 0 rgb(0 0 0 / 4%);
+}
+
+// 侧边栏滑块层级-1
+#app .sidebar-container .el-scrollbar__bar.is-vertical {
+  z-index: -1;
+}
+
+.app-container {
+  padding: 10px !important;
+}
+
+.btn-box {
+  margin-bottom: 15px;
+}
